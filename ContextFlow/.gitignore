@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Builds
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+test_env/
+
+# Test caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local secrets (copy .env.example instead; never commit real keys)
+.env
+
+# Local ChromaDB persistence + demo outputs
+chroma_data/
+demo_*.json
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
