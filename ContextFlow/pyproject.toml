@@ -4,7 +4,7 @@
 # Editable development install with: pip install -e ".[dev]"
 
 [build-system]
-requires = ["setuptools>=61"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
