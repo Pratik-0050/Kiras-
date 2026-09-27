@@ -37,6 +37,11 @@ dependencies = [
     "python-dotenv>=1.0.0",
 ]
 
+[project.urls]
+Homepage = "https://github.com/Pratik-0050/Kiras-"
+Repository = "https://github.com/Pratik-0050/Kiras-"
+Issues = "https://github.com/Pratik-0050/Kiras-/issues"
+
 [project.optional-dependencies]
 llm = ["openai>=1.0.0"]
 vector = ["chromadb>=1.0.0"]
